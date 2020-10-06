@@ -15,9 +15,11 @@ author: Omar Kamel
 
 navbar-links:
   About Me: "aboutme"
+  Example: "example"
   Resources:
     - Beautiful Jekyll: "https://beautifuljekyll.com"
     - Learn markdown: "https://www.markdowntutorial.com/"
+    - Prero Docs: "https://prerodactyl.io"
   Author's home: "https://deanattali.com"
 
 # --- Logo --- #
