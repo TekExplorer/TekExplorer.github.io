@@ -16,10 +16,12 @@ author: Omar Kamel
 navbar-links:
   About Me: "aboutme"
   Example: "example"
+  Pterodactyl:
+    - Prero Docs: "https://pterodactyl.io/"
+    - New Domain: "pterodactyl/new-domain"
   Resources:
     - Beautiful Jekyll: "https://beautifuljekyll.com"
     - Learn markdown: "https://www.markdowntutorial.com/"
-    - Prero Docs: "https://pterodactyl.io/"
     - My Short Links: "https://u.oaka.xyz/"
 #  Author's home: "https://deanattali.com"
 
