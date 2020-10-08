@@ -76,3 +76,6 @@ You can add notification, warning and error boxes like this:
 
 {: .box-error}
 **Error:** This is an error box.
+
+{: .box-success}
+**Success!** This is a very successful box!
