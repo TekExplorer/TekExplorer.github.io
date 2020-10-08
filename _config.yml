@@ -18,7 +18,7 @@ navbar-links:
   Example: "example"
   Pterodactyl:
     - Prero Docs: "https://pterodactyl.io/"
-    - New Domain: "pterodactyl/new-domain"
+    - New Domain: "pterodactyl/switching-domains"
   Resources:
     - Beautiful Jekyll: "https://beautifuljekyll.com"
     - Learn markdown: "https://www.markdowntutorial.com/"
