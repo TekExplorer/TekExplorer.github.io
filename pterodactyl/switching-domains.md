@@ -4,6 +4,9 @@ cover-img: https://live.staticflickr.com/4844/45489311404_0567577113_b.jpg
 title: Switching Domains
 subtitle: For when you need to configure a new domain or ip for your panel
 ---
+{% include linkrefs.html %}
+{{warning}} your warning {{end}}
+
 <div class="panel panel-warning">
 **Warning**
 {{: .panel-heading}}
