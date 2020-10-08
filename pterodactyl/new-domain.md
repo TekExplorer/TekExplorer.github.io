@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Switching Domains
-subtitle: For when you need to configure a new domain or ip
+subtitle: For when you need to configure a new domain or ip for your panel
 ---
 <div class="panel panel-warning">
 **Warning**
