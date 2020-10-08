@@ -5,10 +5,12 @@ title: Switching Domains
 subtitle: For when you need to configure a new domain or ip for your panel
 --- 
 {% include linkrefs.html %}
-{{ important | markdownify }}
+{{important}}
 When switching domains, you will need to re-create any SSL certificates you may have been using, otherwise, your panel will be using an invalid certificate.
-See [Creating SSL Certificates](https://github.com/pterodactyl/documentation/blob/master/tutorials/creating_ssl_certificates.html) documentation page for how to create these certificates before continuing.
+See <a href="https://github.com/pterodactyl/documentation/blob/master/tutorials/creating_ssl_certificates.html">Creating SSL Certificates</a> documentation page for how to create these certificates before continuing.
 {{end}}
+
+[Creating SSL Certificates](https://github.com/pterodactyl/documentation/blob/master/tutorials/creating_ssl_certificates.html)
 
 ## The Panel
 You must edit the `APP_URL` in the panel's `.env` file
