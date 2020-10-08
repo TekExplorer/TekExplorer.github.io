@@ -13,8 +13,6 @@ See [Creating SSL Certificates](https://github.com/pterodactyl/documentation/blo
   </div>
 </div>
 
-{% include note.html content="This is my note. All the content I type here is treated as a single paragraph." %}
-
 ## The Panel
 You must edit the `APP_URL` in the panel's `.env` file
 You will also need to edit the domain in your Webserver Configuration. See  [0.7 Webserver Configuration](https://pterodactyl.io/panel/0.7/webserver_configuration.html) or [1.0 Webserver Configuration](https://pterodactyl.io/panel/1.0/webserver_configuration.html) and edit the `<domain>` fields as appropriate.
