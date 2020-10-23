@@ -17,7 +17,7 @@ You will also need to edit the domain in your Webserver Configuration. See  [0.7
 You must change the url for every node you wish to convert to the new domain in the panel's node settings (the `FQDN` field)
 
 {: .box-note}
-Note: You only need to do either the wings or daemon! you must also restart the daemon with `systemctl restart wings` once you change the file!
+**ℹ️ Note:** You only need to do either the wings or daemon! you must also restart the daemon with `systemctl restart wings` once you change the file!
 
 ### 1.0 Wings
 Recopy the `config.yml` or manually edit the `remote` field in the existing file to match the panel's new url
