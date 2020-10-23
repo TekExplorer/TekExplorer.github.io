@@ -20,7 +20,7 @@ You must change the url for every node you wish to convert to the new domain in 
 **ℹ️ Note:** You only need to do either the wings or daemon! you must also restart the daemon with `systemctl restart wings` once you change the file!
 
 ### 1.0 Wings
-Recopy the `config.yml` or manually edit the `remote` field in the existing file to match the panel's new url
+Recopy the `config.yml` or manually edit the `remote` field in the existing file to match the panel's new url (found at `/etc/pterodactyl/config.yml`)
 ### 0.6 Daemon
-Recopy the `core.json` or manually edit the `base_url` field in the existing file to match the panel's new url
+Recopy the `core.json` or manually edit the `base_url` field in the existing file to match the panel's new url (found at `/srv/daemon/config/core.json`)
 
