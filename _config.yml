@@ -19,6 +19,7 @@ navbar-links:
   Pterodactyl:
     - Prero Docs: "https://pterodactyl.io/"
     - Switching Domains: "pterodactyl/switching-domains"
+    - Updating php: "pterodactyl/update-php"
   Resources:
     - Beautiful Jekyll: "https://beautifuljekyll.com"
     - Learn markdown: "https://www.markdowntutorial.com/"
