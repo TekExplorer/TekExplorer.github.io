@@ -10,12 +10,22 @@ You need to update php from 7.2 to 7.4.
 {: .box-note}
 **ℹ️ Note:** Add `sudo` as necessary if you are not `root`
 ## Upgrade to php 7.4
+### Ubuntu
 ```bash
-# Install php7.4
+# Install ondrej php repo
 apt-add-repository ppa:ondrej/php
+```
+### Debian
+```bash
+# Install sury repo
+sudo wget -O /etc/apt/trusted.gpg.d/php.gpg https://packages.sury.org/php/apt.gpg
+echo "deb https://packages.sury.org/php/ $(lsb_release -sc) main" | sudo tee /etc/apt/sources.list.d/php.list
+```
+### Update and install php 7.4 (Debian and Ubuntu)
+```bash
 apt update
+# Install php 7.4
 apt -y install php7.4 php7.4-{cli,gd,mysql,pdo,mbstring,tokenizer,bcmath,xml,fpm,curl,zip}
-
 # Remove old php 7.2
 apt-get purge php7.2*
 ```
