@@ -1,0 +1,32 @@
+rm -rf yarn.lock node_modules && yarn && yarn build:production
+
+install nodejs
+
+npm i -g yarn
+yarn
+yarn build:production
+
+
+
+Debian/Ubuntu
+Yarn Installation To Change The Panels Colors
+
+Yarn Install Command
+apt install yarn
+
+Then Do
+yarn -v
+
+TroubleShooting IDK \/ \/
+Note If An Error Like (SyntaxError: Unexpected Token) Shows Up Type
+curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
+
+After It Installs Type
+apt-get install -y nodejs
+
+Then Check If Yarn Installed Correctyly By Doing
+yarn -v
+
+
+ yarn watch
+ yarn serve
