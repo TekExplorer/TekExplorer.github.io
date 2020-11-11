@@ -4,9 +4,9 @@ layout: page
 title: Getting Started
 subtitle: What you need to have to make changes
 ---
-
+In your panel directory [`/var/www/pterodactyl`] do the following
 ```bash
-apt-get install -y nodejs
+apt install -y nodejs
 npm i -g yarn
 yarn
 yarn build:production
