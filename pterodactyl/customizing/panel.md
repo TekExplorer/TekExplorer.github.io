@@ -1,7 +1,7 @@
 ---
 layout: page
 #cover-img: https://live.staticflickr.com/4844/45489311404_0567577113_b.jpg
-title: Panel
+title: Build Panel
 subtitle: How to apply changes made to your panel
 ---
 # Rebuild panel assets 
