@@ -4,5 +4,6 @@ layout: page
 title: Customizing
 subtitle: The unofficial place to learn how to customize your panel
 --- 
+It is highly reccomended that you fork the relevent project and make your changes there.
 * [Panel](panel)
 * [Wings](wings)
