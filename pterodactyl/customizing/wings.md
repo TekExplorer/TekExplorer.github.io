@@ -16,6 +16,7 @@ Make your changes as you wish.
 # Build Wings
 You must have golang installed to build wings.
 * The official installation method is linked here: https://golang.org/doc/install
+
 Run this to build wings
 ```bash
 go build
