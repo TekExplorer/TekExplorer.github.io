@@ -4,6 +4,8 @@ layout: page
 title: Getting Started
 subtitle: What you need to have to make changes
 ---
+# Step 1: Make your changes
+# Step 2: Rebuild panel assets 
 In your panel directory [`/var/www/pterodactyl`] do the following
 ```bash
 apt install -y nodejs
