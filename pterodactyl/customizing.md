@@ -4,6 +4,5 @@ layout: page
 title: Customizing
 subtitle: The unofficial place to learn how to customize your panel
 --- 
-* [Getting Started](getting-started)
-   * [Panel](panel)
-   * [Wings](wings)
+* [Panel](panel)
+* [Wings](wings)
