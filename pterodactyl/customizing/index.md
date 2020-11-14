@@ -6,3 +6,5 @@ subtitle: The unofficial place to learm how to customize your panel
 --- 
 
 # WIP
+* [Panel](/pterodactyl/customizing/getting-started)
+* [Wings](/pterodactyl/customizing/wings)
