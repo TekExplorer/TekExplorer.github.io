@@ -8,7 +8,7 @@ subtitle: How to apply changes made to your panel
 ## Install Dependencies
 The following commands will install the necessary dependencies for building your panel
 ```bash
-apt install -y nodejs # installs nodejs
+apt install -y nodejs # installs nodejs (ubuntu and debian only. if you use centos, google how to install it)
 npm i -g yarn # installs yarn
 
 cd /var/www/pterodactyl # go to your panel directory; needed for the following command
