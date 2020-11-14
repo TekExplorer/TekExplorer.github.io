@@ -6,10 +6,15 @@ subtitle: What you need to have to make changes
 ---
 # Step 1: Make your changes
 # Step 2: Rebuild panel assets 
-In your panel directory [`/var/www/pterodactyl`] do the following
+## Install Dependencies
+In your panel directory [`/var/www/pterodactyl`] do the following:
 ```bash
-apt install -y nodejs
-npm i -g yarn
-yarn
-yarn build --production
+apt install -y nodejs # installs nodejs (needed for yarn)
+npm i -g yarn # installs yarn
+yarn # Installs dependencies
+```
+## Build Panel
+Run this in your panel directory (mentioned above) to apply changes:
+```bash
+yarn build --production # Build panel
 ```
