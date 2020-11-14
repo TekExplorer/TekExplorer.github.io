@@ -11,7 +11,7 @@ In your panel directory [`/var/www/pterodactyl`] do the following:
 ```bash
 apt install -y nodejs # installs nodejs (needed for yarn)
 npm i -g yarn # installs yarn
-yarn # Installs dependencies
+yarn # Installs dependencies (must be in directory mentioned above)
 ```
 ## Build Panel
 Run this in your panel directory (mentioned above) to apply changes:
