@@ -9,5 +9,5 @@ In your panel directory [`/var/www/pterodactyl`] do the following
 apt install -y nodejs
 npm i -g yarn
 yarn
-yarn build:production
+yarn build --production
 ```
