@@ -22,7 +22,7 @@ navbar-links:
     - Updating php: "pterodactyl/update-php"
     - Using Mounts: "pterodactyl/mounts"
     - Using S3 Backups: "pterodactyl/s3-backups"
-    - Customizing: "pterodactyl/customizing/getting-started.md"
+    - Customizing: "pterodactyl/customizing/getting-started"
   Resources:
     - Beautiful Jekyll: "https://beautifuljekyll.com"
     - Learn markdown: "https://www.markdowntutorial.com/"
