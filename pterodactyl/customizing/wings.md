@@ -8,7 +8,7 @@ subtitle: How to apply changes made to wings
 **ℹ️ Note:** You do not have to do this on your production server, and I would recommend making your changes on a separate system.
 # Make changes
 First, clone the wings repo and enter it
-```git
+```bash
 git clone https://github.com/pterodactyl/wings
 cd wings
 ```
