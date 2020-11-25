@@ -1,6 +1,6 @@
 ---
 layout: page
-#cover-img: https://live.staticflickr.com/4844/45489311404_0567577113_b.jpg
+#cover-img: 
 title: phpMyAdmin Guide
 subtitle: How to install phpMyAdmin alongside Pterodactyl
 --- 
