@@ -12,6 +12,6 @@ subtitle: The root of my Ptero guides
 * [customizing](customizing)
   * [panel](customizing/panel)
   * [wings](customizing/wings)
-* [extra]
+* [extra](extra)
   * [phpMyAdmin](extra/pma)
   *
