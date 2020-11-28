@@ -12,6 +12,7 @@ First, clone the wings repo and enter it
 git clone https://github.com/pterodactyl/wings
 cd wings
 ```
+
 {: .box-note}
 You may now make your changes. Once you are done, you will need to build wings.
 
