@@ -25,8 +25,8 @@ dnf install -y nodejs # CentOS 8
 By now, you should have NodeJS 12 installed. Make sure this is the case by checking `npm -v`
 ### Install Yarn Dependencies
 ```bash
-npm i -g yarn # installs yarn
-yarn add cross-env # installs necessary yarn module
+npm i -g yarn # Installs yarn
+yarn add cross-env # Installs necessary yarn module
 yarn # Installs panel build dependencies
 ```
 ## Build Panel
