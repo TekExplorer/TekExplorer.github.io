@@ -33,7 +33,6 @@ systemctl stop wings # stop the wings service
 rm /usr/local/bin/wings # delete the current wings binary. you can also choose to move it instead if you want to be able to restore it quickly
 ```
 2. Upload or move your new wings binary to its new home and make it executable.
-
 ```bash
 mv /some/path/to/wings /usr/local/bin/ # move wings
 # you can also choose some other method to move your wings binary, so long as it ends up in /usr/local/bin/
