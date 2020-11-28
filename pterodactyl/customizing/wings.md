@@ -14,7 +14,7 @@ cd wings
 ```
 
 {: .box-note}
-You may now make your changes. Once you are done, you will need to build wings.
+**ℹ️ Note:** You may now make your changes. Once you are done, you will need to build wings.
 
 # Build Wings
 You must have golang installed to build wings.
