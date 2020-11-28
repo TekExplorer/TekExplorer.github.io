@@ -13,6 +13,8 @@ subtitle: Some things you may want to change and their locations
 * `container@Pterodactyl~` *([Requires Rebuilding](../panel))
   * `resources/scripts/components/server/Console.tsx`
   * line 59
+* Colors *([Requires Rebuilding](../panel))
+  * `tailwind.config.js`
 
 ## Wings *([Requires Building](../wings))
 * `[Pterodactyl Daemon]:`
