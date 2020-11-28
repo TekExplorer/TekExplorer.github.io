@@ -15,7 +15,7 @@ cd wings
 You may now make your changes. Once you are done, you will need to build wings.
 # Build Wings
 You must have golang installed to build wings.
-* The official installation method is linked here: https://golang.org/doc/install
+* The official installation method is linked here: [https://golang.org/doc/install](https://golang.org/doc/install)
 
 Run this to build wings
 ```bash
