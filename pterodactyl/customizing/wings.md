@@ -36,7 +36,6 @@ rm /usr/local/bin/wings # delete the current wings binary. you can also choose t
 ```bash
 mv /some/path/to/wings /usr/local/bin/ # move wings
 # you can also choose some other method to move your wings binary, so long as it ends up in /usr/local/bin/
-
 chmod u+x /usr/local/bin/wings # make wings executable
 ```
 3. Run wings manually to ensure it works correctly
