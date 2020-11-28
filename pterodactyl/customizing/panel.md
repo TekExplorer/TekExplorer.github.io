@@ -10,9 +10,6 @@ subtitle: How to apply changes made to your panel
 The following commands will install the necessary dependencies for building your panel.
 * Make sure to be inside your panel directory `/var/www/pterodactyl` 
 ### Install NodeJS
-{: .box-note}
-**ℹ️ Note:** You may have to add `sudo` to these commands or switch to root before running them.
-
 **Ubuntu/Debian**
 ```bash
 curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
