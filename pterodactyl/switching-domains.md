@@ -7,8 +7,8 @@ subtitle: For when you need to configure a new domain or ip for your panel
 {: .box-warning}
 **⚠️ Warning:** When switching domains, you will need to re-create any SSL certificates you may have been using, otherwise, your panel *and* nodes will be using invalid certificates.
 
-{: .box-note}
 **ℹ️ Note:** See [Creating SSL Certificates](https://pterodactyl.io/tutorials/creating_ssl_certificates.html) for how to create these certificates before continuing.
+{: .box-note}
 
 ## The Panel
 You must edit the `APP_URL` in the panel's `.env` file, *with `http://` or `https://`* (found at `/var/www/pterodactyl/.env`)
