@@ -5,7 +5,16 @@ title: Misc things
 subtitle: Some things you may want to change and their locations
 --- 
 # WIP
+## Panel [`/var/www/pterodactyl/`]
 * Tab Icon (Favicon)
-  * `/var/www/pterodactyl/public/favicons`
+  * `public/favicons`
 * Logos (such as in the login and error screens)
-  * `/var/www/pterodactyl/public/assets/svgs`
+  * `public/assets/svgs`
+* `container@Pterodactyl~` *([Requires Rebuilding](../panel))
+  * `resources/scripts/components/server/Console.tsx`
+  * line 59
+
+## Wings *([Requires Building](../wings))
+* `[Pterodactyl Daemon]:`
+  * `server/console.go`
+  * line 166
