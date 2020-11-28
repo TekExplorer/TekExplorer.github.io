@@ -14,15 +14,13 @@ The following commands will install the necessary dependencies for building your
 **Ubuntu/Debian**
 ```bash
 curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
-apt install -y nodejs # installs nodejs
+apt install -y nodejs
 ```
 **CentOS**
 ```
 curl -sL https://rpm.nodesource.com/setup_12.x | sudo -E bash -
-# CentOS 7
-yum install -y nodejs
-# CentOS 8
-dnf install -y nodejs
+yum install -y nodejs # CentOS 7
+dnf install -y nodejs # CentOS 8
 ```
 By now, you should have NodeJS 12 installed. Make sure this is the case by checking `npm -v`
 ### Install Yarn Dependencies
