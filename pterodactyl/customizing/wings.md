@@ -26,7 +26,9 @@ go build
 ```
 You should now have a `wings` binary file in your wings directory.
 ## Install the new binary
-You may want to be the root user for this, otherwise you will want to add `sudo` to all of these commands.
+{: .box-note}
+**ℹ️ Note:** You may want to be the root user for this, otherwise you will want to add `sudo` to all of these commands.
+
 1. Delete the current wings install.
 ```bash
 systemctl stop wings # stop the wings service
