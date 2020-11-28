@@ -12,7 +12,7 @@ First, clone the wings repo and enter it
 git clone https://github.com/pterodactyl/wings
 cd wings
 ```
-You may now make your changes. Once you are done, you will need to build wings.
+{: .box-note} You may now make your changes. Once you are done, you will need to build wings.
 # Build Wings
 You must have golang installed to build wings.
 * The official installation method is linked here: [https://golang.org/doc/install](https://golang.org/doc/install)
@@ -23,12 +23,29 @@ go build
 ```
 You should now have a `wings` binary file in your wings directory.
 ## Install the new binary
-1. The new binary you just built should be placed in the [`/usr/local/bin/`] directory on your server.
-   - If wings is already there, delete it first.
-   - You can use an sftp client to upload the file.
-   - If you have permission issues, you can upload it to a different location and copy it over using `cp` or move it with `mv` as root afterwards
-2. Make the new wings executable
+1. Delete the current wings install.
 ```bash
-chmod u+x /usr/local/bin/wings
+systemctl stop wings # stop the wings service
+sudo rm /usr/local/bin/wings # delete the current wings binary. you can also choose to move it instead if you want to be able to restore it quickly
 ```
-3. Restart wings with `systemctl restart wings`
+2. Upload or move your new wings binary to its new home and make it executable.
+```bash
+# for example
+mv /some/path/to/wings /usr/local/bin/ # move wings
+chmod u+x /usr/local/bin/wings # make wings executable
+```
+3. Run wings manually to ensure it works correctly
+```bash
+# example commands
+wings
+wings --debug
+wings diagnostics
+```
+4. Enable the wings service once again
+```bash
+systemctl start wings
+```
+- Notes
+   - You can use an sftp client to upload the binary.
+   - If you have permission issues, you can upload it to a different location and copy it over using `cp` or move it with `mv` as root afterwards
+
