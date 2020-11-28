@@ -8,9 +8,8 @@ subtitle: How to apply changes made to your panel
 # Rebuild panel assets 
 ## Install Dependencies
 The following commands will install the necessary dependencies for building your panel.
-* Make sure to be inside your panel directory `/var/www/pterodactyl` 
-
 ### Install NodeJS
+***NOTE:*** You may have to add sudo to the following commands if you are not root.
 **Ubuntu/Debian**
 ```bash
 curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
@@ -30,7 +29,7 @@ yarn add cross-env # Installs necessary yarn module
 yarn # Installs panel build dependencies
 ```
 ## Build Panel
-Run this in your panel directory to apply changes
+Run this in your panel directory to apply changes (usually `/var/www/pterodactyl`)
 ```bash
 yarn build --production # Build panel
 ```
