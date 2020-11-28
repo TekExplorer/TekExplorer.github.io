@@ -48,6 +48,7 @@ wings diagnostics
 ```bash
 systemctl start wings
 ```
+
 ### Notes
    - You can use an sftp client to upload the binary.
    - If you have permission issues with uploading the file, you can upload it to a different location and copy it over using `cp` or move it with `mv` as root afterwards
