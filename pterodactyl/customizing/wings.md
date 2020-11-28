@@ -46,7 +46,7 @@ wings
 wings --debug
 wings diagnostics
 ```
-4. Enable the wings service once again
+4. Start the wings service once again
 ```bash
 systemctl start wings
 ```
