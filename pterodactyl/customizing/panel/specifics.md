@@ -7,4 +7,5 @@ subtitle: Some things you may want to change and their locations
 # WIP
 * Tab Icon (Favicon)
   * `/var/www/pterodactyl/public/favicons`
-*
+* Logos (such as in the login and error screens)
+  * `/var/www/pterodactyl/public/assets/svgs`
