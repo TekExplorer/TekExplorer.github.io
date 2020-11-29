@@ -10,13 +10,12 @@ subtitle: How to apply changes made to your panel
 The following commands will install the necessary dependencies for building your panel.
 ### Install NodeJS
 ***NOTE:*** You may have to add sudo to the following commands if you are not root.
-**Ubuntu/Debian**
 ```bash
+# Ubuntu/Debian
 curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
 apt install -y nodejs
-```
-**CentOS**
-```bash
+
+# CentOS
 curl -sL https://rpm.nodesource.com/setup_12.x | sudo -E bash -
 yum install -y nodejs # CentOS 7
 dnf install -y nodejs # CentOS 8
