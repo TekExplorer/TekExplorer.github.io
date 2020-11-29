@@ -23,10 +23,6 @@ dnf install -y nodejs # CentOS 8
 ```
 By now, you should have NodeJS 12 installed. Make sure this is the case by checking `npm -v`
 ### Install Yarn and Panel Dependencies
-
-{: .box-warning}
-**⚠️ Warning:** Do not ever run `yarn upgrade`! This will upgrade webpack and screw up your panel!
-
 ```bash
 npm i -g yarn # Installs yarn
 yarn install # Installs panel build dependencies
