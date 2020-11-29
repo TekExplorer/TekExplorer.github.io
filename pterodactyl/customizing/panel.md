@@ -5,6 +5,7 @@ title: Build Panel
 subtitle: How to apply changes made to your panel
 #https://www.freecodecamp.org/news/how-to-install-node-js-on-ubuntu-and-update-npm-to-the-latest-version/
 ---
+The official [BUILDING.md](https://github.com/pterodactyl/panel/blob/develop/BUILDING.md)
 # Rebuild panel assets 
 ## Install Dependencies
 The following commands will install the necessary dependencies for building your panel.
