@@ -21,18 +21,17 @@ yum install -y nodejs # CentOS 7
 dnf install -y nodejs # CentOS 8
 ```
 By now, you should have NodeJS 12 installed. Make sure this is the case by checking `npm -v`
-### Install Yarn Dependencies
+### Install Yarn and Panel Dependencies
 
 {: .box-warning}
 **⚠️ Warning:** Do not ever run `yarn upgrade`! This will upgrade webpack and screw up your panel!
 
 ```bash
 npm i -g yarn # Installs yarn
-yarn add cross-env # Installs necessary yarn module
-yarn # Installs panel build dependencies
+yarn install # Installs panel build dependencies
 ```
 ## Build Panel
 Run this in your panel directory to apply changes (usually `/var/www/pterodactyl`)
 ```bash
-yarn build --production # Build panel
+yarn build:production # Build panel
 ```
