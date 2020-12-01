@@ -17,12 +17,12 @@ navbar-links:
   About Me: "aboutme"
   Example: "example"
   Pterodactyl:
-    - Prero Docs: "https://pterodactyl.io/"
-    - Switching Domains: "pterodactyl/switching-domains"
-    - Updating php: "pterodactyl/update-php"
-    - Using Mounts: "pterodactyl/mounts"
-    - Using S3 Backups: "pterodactyl/s3-backups"
-    - Customizing: "pterodactyl/customizing"
+    - Official Prero Docs: "https://pterodactyl.io/"
+    - Pterodox: "https://pterodox.com"
+#    - Updating php: "pterodactyl/update-php"
+#    - Using Mounts: "pterodactyl/mounts"
+#    - Using S3 Backups: "pterodactyl/s3-backups"
+#    - Customizing: "pterodactyl/customizing"
   Resources:
     - Beautiful Jekyll: "https://beautifuljekyll.com"
     - Learn markdown: "https://www.markdowntutorial.com/"
@@ -229,6 +229,7 @@ exclude:
   - README.md
   - screenshot.png
   - docs/
+  - pterodactyl/
 
 plugins:
   - jekyll-paginate
